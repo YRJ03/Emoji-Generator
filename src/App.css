@@ -1,0 +1,86 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.emoji-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.emoji {
+  font-size: 100px;
+}
+
+.emoji-description {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.generate-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.generate-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .emoji {
+    font-size: 80px;
+  }
+
+  .emoji-description {
+    font-size: 16px;
+  }
+
+  .generate-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  .emoji {
+    font-size: 60px;
+  }
+
+  .emoji-description {
+    font-size: 14px;
+  }
+
+  .generate-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+} 
